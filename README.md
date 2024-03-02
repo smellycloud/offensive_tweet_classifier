@@ -23,3 +23,8 @@ Various deep learning architectures were investigated, including convolutional n
 **Task:** Identify offensive language in tweets.   
 **Approach:** Utilizes a pre-trained Universal Sentence Encoder to extract semantic embeddings from tweets, followed by a dense layer for classification.   
 **Performance:** Achieved an F1-score of 0.78.    
+
+
+## Results sample (Model 3):
+
+![Untitled](https://github.com/smellycloud/offensive_tweet_classifier/assets/52908667/0ca15cf0-9237-4693-8a3a-49e4e09197a5)
