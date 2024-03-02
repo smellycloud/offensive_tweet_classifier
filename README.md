@@ -1,8 +1,6 @@
 ## Model Development: 
 
-
 Various deep learning architectures were investigated, including convolutional neural networks (CNNs). These models were chosen for their effectiveness in capturing both local and sequential features within textual data, which is crucial for offensive language detection.
-
 
 ## Model 1: Offensive Tweet Identification (Dense Layer)
 **Task:** Identify offensive language in tweets.   
@@ -14,7 +12,6 @@ Various deep learning architectures were investigated, including convolutional n
 
 ## Model 2: Offensive Tweet Identification (1D CNNs + Dense Layer)   
 **Task:** Identify offensive language in tweets.
-
 **Approach:** Leverages one-dimensional convolutional neural networks (1D CNNs) to capture local patterns within tweets, followed by a dense layer for classification.   
 **Performance:** Achieved an F1-score of 0.74.   
 **Comparison:** While Model 2's F1-score of 0.74 is lower than Model 3 (0.78), it offers potential advantages such as   
@@ -23,7 +20,6 @@ Various deep learning architectures were investigated, including convolutional n
 
 
 ## Model 3: Offensive Tweet Identification (Universal Sentence Encoder + Dense Layer)   
-
 **Task:** Identify offensive language in tweets.   
 **Approach:** Utilizes a pre-trained Universal Sentence Encoder to extract semantic embeddings from tweets, followed by a dense layer for classification.   
 **Performance:** Achieved an F1-score of 0.78.    
