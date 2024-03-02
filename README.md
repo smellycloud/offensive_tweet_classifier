@@ -5,11 +5,9 @@ Various deep learning architectures were investigated, including convolutional n
 
 
 ## Model 1: Offensive Tweet Identification (Dense Layer)
-**Task:** Identify offensive language in tweets.
-
-**Approach:** This model utilizes a single dense layer directly on the input features (e.g., word embeddings, character n-grams) to perform classification.
-**Performance:** Achieved an F1-score of 0.75.
-
+**Task:** Identify offensive language in tweets.   
+**Approach:** This model utilizes a single dense layer directly on the input features (e.g., word embeddings, character n-grams) to perform classification.   
+**Performance:** Achieved an F1-score of 0.75.   
 **Limitations:**   
 **Limited feature learning:** A single dense layer lacks the capability to capture complex relationships within the data compared to models with deeper architectures like CNNs and LSTMs.   
 **Potential overfitting:** With a limited number of parameters, the model might be prone to overfitting the training data, leading to reduced performance on unseen data.    
